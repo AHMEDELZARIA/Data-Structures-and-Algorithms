@@ -1,4 +1,4 @@
-// Binary search program
+// Binary search on array program 
 #include <cs50.h>
 #include <stdio.h>
 
