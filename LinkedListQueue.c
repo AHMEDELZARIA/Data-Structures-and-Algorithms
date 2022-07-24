@@ -96,7 +96,7 @@ int dequeue(queue* q)
     return dequeued;
 }
 
-// Function that destroys the linked list to free memory
+// Function that destroys the linked list to avoid memory leak
 void destroy(queue* q)
 {
     while (q->head != NULL)
